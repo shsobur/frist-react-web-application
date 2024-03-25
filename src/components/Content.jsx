@@ -6,7 +6,7 @@ import rehypeRaw from "rehype-raw";
 const Content = () => {
   const blog = useLoaderData();
 
-  const { title, cover_image, description, published_at, body_html, id, tags } =
+  const { title, cover_image, body_html, id, tags } =
     blog;
 
   return (

@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Link, Outlet, useLoaderData } from "react-router-dom";
+import { Link, Outlet, useLoaderData} from "react-router-dom";
 
 const Blog = () => {
+
   const blog = useLoaderData();
   const {
     title,
